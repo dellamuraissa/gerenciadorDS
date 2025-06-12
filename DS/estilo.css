@@ -1,0 +1,88 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeef5; /* rosa bem claro */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #d63384; /* rosa mais forte */
+}
+
+/* Subtítulo */
+h2 {
+    color: #b03060;
+    margin-top: 40px;
+}
+
+
+form {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #f8c5d8;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e3a6b9;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #f48fb1;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #ec407a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 700px;
+    margin: auto;
+}
+
+li {
+    background-color: #fff0f5;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 6px solid #d63384;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(220, 120, 160, 0.2);
+}
+
+.tarefa-nome {
+    font-weight: bold;
+    color: #c2185b;
+}
+
+.tarefa-status {
+    font-style: italic;
+    color: #555;
+}
+
+li form {
+    display: inline-block;
+    margin-top: 10px;
+}
